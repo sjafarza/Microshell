@@ -49,7 +49,7 @@ int	ft_cd(char **cur)
 		write(2, cur[1], ft_strlen(cur[1]));
 		write(2, "\n", 2);
 	}
-	return (ret);
+	return (0);
 }
 		
 void	main_func(char **cur_pip,int  *old_pip[], t_shell  shell, char  **env)

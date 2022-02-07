@@ -17,7 +17,6 @@ typedef struct s_com
 
 typedef struct s_shell
 {
-        char    *cmd;
         int     prev;
         int     next;
 } t_shell;
